@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background: url(./assets/img/world.jpg) no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+    /* Ubicación de la imagen */
+}
+
+button{
+  border: none;
+  background: none;
+}
